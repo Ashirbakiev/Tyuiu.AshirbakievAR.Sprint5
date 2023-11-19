@@ -23,7 +23,7 @@ namespace Tyuiu.AshirbakievAR.Sprint5.Task1.V11.Lib
             string strY;
             for (int x = startValue; x <= stopValue; x++)
             {
-                y = (Math.Sin(x)-2*x)/(3*x-1)+ Math.Sin(x) - 3 * x + 2;
+                y = Math.Round((Math.Sin(x)-2*x)/(3*x-1)+ Math.Sin(x) - 3 * x + 2,2);
                 strY = Convert.ToString(y);
                 if (x != stopValue && (3 * x - 1) != 0)
                 {
